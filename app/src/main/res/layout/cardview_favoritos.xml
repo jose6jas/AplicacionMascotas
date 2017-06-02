@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvMascota"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/cv_margin"
+    card_view:cardCornerRadius="@dimen/cv_radius">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/imgMascota2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mascota1"
+            />
+        <LinearLayout
+            android:id="@+id/linear22"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/ll_2_height"
+            android:orientation="horizontal"
+            >
+            <ImageButton
+                android:id="@+id/btn_BoneLike2"
+                android:layout_width="@dimen/bones_width"
+                android:layout_height="@dimen/bones_height"
+                android:background="@drawable/dog_bone_48"
+                />
+            <TextView
+                android:id="@+id/tv_nombre2"
+                android:layout_marginLeft="@dimen/tv_nombre_marginleft"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/tv_nombre"
+                android:textSize="@dimen/tv_nombre_size"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <TextView
+                    android:id="@+id/tv_count2"
+                    android:layout_marginLeft="@dimen/tv_count_marginleft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/tv_count"
+                    android:layout_toLeftOf="@+id/img_BoneLiked2"
+                    android:textSize="@dimen/tv_count_size"
+                    />
+                <ImageView
+                    android:id="@+id/img_BoneLiked2"
+                    android:layout_gravity="end"
+                    android:layout_width="@dimen/bones_width"
+                    android:layout_height="@dimen/bones_height"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/dog_bone_filled_50" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>

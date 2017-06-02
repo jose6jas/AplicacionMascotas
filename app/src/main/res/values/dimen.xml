@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cv_radius">4dp</dimen>
+    <dimen name="cv_margin">8dp</dimen>
+    <dimen name="tv_nombre_marginleft">40dp</dimen>
+    <dimen name="tv_nombre_size">30dp</dimen>
+    <dimen name="tv_count_marginleft">40dp</dimen>
+    <dimen name="tv_count_size">30dp</dimen>
+    <dimen name="ll_2_height">40dp</dimen>
+    <dimen name="bones_width">40dp</dimen>
+    <dimen name="bones_height">40dp</dimen>
+    <dimen name="tv_settings_size">40dp</dimen>
+    <dimen name="tv_about_size">40dp</dimen>
+</resources>
